@@ -36,7 +36,7 @@
         itemList : [
           {
             id : 'item01',
-            thumnail: 'https://cdn.pixabay.com/photo/2023/01/30/20/02/bird-7756521_640.jpg',
+            thumnail: 'https://cdn.pixabay.com/photo/2016/11/18/13/03/apple-1834328_960_720.jpg',
             title: '아이맥 m1 Apple 2021 아이맥 24',
             price: 1200000,
             user: {
@@ -48,7 +48,7 @@
           },
           {
             id : 'item02',
-            thumnail: 'https://cdn.pixabay.com/photo/2023/01/30/20/02/bird-7756521_640.jpg',
+            thumnail: 'https://cdn.pixabay.com/photo/2016/11/18/13/03/apple-1834328_960_720.jpg',
             title: '아이맥 m1 Apple 2021 아이맥 24',
             price: 1200000,
             user: {
