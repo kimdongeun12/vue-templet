@@ -9,24 +9,20 @@ const routes = [
   {
     path: '/',
     name: 'index',
-    redirect: '/vue-templet/deal', // 초기 진입시 이동할 페이지
-    // redirect: '/deal', // 초기 진입시 이동할 페이지
+    redirect: '/deal', // 초기 진입시 이동할 페이지
   },
   {
-    path: '/vue-templet/deal',
-    // path: '/deal',
+    path: '/deal',
     name: 'DealList',
     component: DealListView
   },
   {
-    path: '/vue-templet/deal/:id',
-    // path: '/deal/:id',
+    path: '/deal/:id',
     name: 'DealDetail',
     component: DealDetailView
   },
   {
-    path: '/vue-templet/shop',
-    // path: '/shop',
+    path: '/shop',
     name: 'Shop',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -36,7 +32,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
