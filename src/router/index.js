@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import DealView from '../pages/deal/DealView.vue'
+import DealListView from '../pages/deal/DealListView.vue'
+import DealDetailView from '../pages/deal/DealDetailView.vue'
 
 Vue.use(VueRouter)
 
@@ -12,8 +13,13 @@ const routes = [
   },
   {
     path: '/deal',
-    name: 'Deal',
-    component: DealView
+    name: 'DealList',
+    component: DealListView
+  },
+  {
+    path: '/deal/:id',
+    name: 'DealDetail',
+    component: DealDetailView
   },
   {
     path: '/shop',
