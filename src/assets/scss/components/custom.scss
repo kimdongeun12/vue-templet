@@ -1,0 +1,8 @@
+@import "~@/assets/scss/variables.scss";
+
+.v-application{
+    .text-truncate.line2 {
+        height: $font-size-root * 2;
+        line-height: $font-size-root * 2;
+    }
+}
