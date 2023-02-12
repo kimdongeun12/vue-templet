@@ -6,7 +6,7 @@
         <v-spacer></v-spacer>
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       </v-app-bar>
-      <v-navigation-drawer v-model="drawer" absolute temporary right>
+      <v-navigation-drawer v-model="drawer" fixed temporary right>
         <v-list-item>
           <v-list-item-content>
             <v-list-item-title class="text-h6">
